@@ -19,6 +19,7 @@
 
         <label>Stock:</label>
         <select id="my-stock-selector">
+            <option value="GME" selected>Gamestop YEAH</option>
             <option value="MSFT" selected>Microsoft (MSFT)</option>
             <option value="GOOG">Google (GOOGL)</option>
             <option value="AAPL">Apple (AAPL)</option>
@@ -27,6 +28,7 @@
         <br>
 
         <button id="my-submit-btn">Go!</button>
+
     </div>
 
     <hr>
@@ -110,10 +112,10 @@
 
 
         // trigger an initial chart update when the page loads:
-        //updateDashboard()
+        updateDashboard()
 
         // trigger a subsequent chart update whenever the button is clicked:
-        //myButton.addEventListener("click", updateDashboard, false)
+        myButton.addEventListener("click", updateDashboard, false)
 
 
 
